@@ -18,3 +18,8 @@ load("path_to_joblib")
 from tensorflow import keras
 keras.models.load_model("path_to_model")
 ```
+
+In case the data is to be loaded directly from the fyers api the three files\n
+getAccessToken.py, getHistoryData.py, and getToken.py may be used
+
+just replace the APP_ID, PIN and SECRET_ID variables in the files.
